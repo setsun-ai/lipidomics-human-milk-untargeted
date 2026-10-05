@@ -1,0 +1,16 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = ["ignore::pandas.errors.PerformanceWarning", "ignore::UserWarning"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+include = ["analysis_non_targeted.py", "tests/**/*.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+# course analysis script kept close to the graded version; long lines are not reformatted
+"analysis_non_targeted.py" = ["E501"]

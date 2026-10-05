@@ -1,0 +1,11 @@
+stage,features,removed_vs_previous
+Raw feature table,752,0.0
+After blank filter <10%,575,177.0
+After blank + 100% QC presence,129,
+After blank + 70% QC presence,214,361.0
+After blank + 100% Sample presence,69,
+After blank + 70% all Sample presence,152,
+After blank + 70% in at least one timepoint,204,
+Candidate: blank + 70% QC + 70% group,160,54.0
+Final: candidate + QC RSD <=30%,94,66.0
+Strict accepted subset: QC RSD <=20%,73,87.0

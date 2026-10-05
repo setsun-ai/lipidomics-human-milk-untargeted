@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+~$*
+
+# restricted input data and donor-level intermediate matrices: never commit
+input_data/
+processed_data/
+.pytest_cache/
+.ruff_cache/

@@ -1,0 +1,44 @@
+{
+  "feature_table_rows": 752,
+  "feature_table_columns_after_drop_unnamed": 343,
+  "volume_columns_total": 55,
+  "volume_columns_sample_total": 44,
+  "volume_columns_sample_used": 40,
+  "volume_columns_sample_excluded_unpaired_donor": 4,
+  "volume_columns_qc": 10,
+  "volume_columns_blank": 1,
+  "metadata_sample_rows": 40,
+  "metadata_qc_rows": 10,
+  "metadata_blank_rows": 1,
+  "feature_files_not_in_metadata_exact": [
+    "D2_12_1A_1035.mzML",
+    "D2_12_1B_1036.mzML",
+    "D2_12_2A_1037.mzML",
+    "D2_12_2B_1038.mzML",
+    "D3_12_1A_987.mzML",
+    "D3_1_1A_975.mzML",
+    "D3_1_2A_977.mzML",
+    "D3_1_2B_978.mzML",
+    "QC_day_8_9.mzML"
+  ],
+  "metadata_files_not_in_feature_exact": [
+    "D3_12_1A_975.mzML",
+    "D3_1_1A_977.mzML",
+    "D3_1_2A_978.mzML",
+    "D3_1_2B_987.mzML",
+    "QC_day_8_6.mzML"
+  ],
+  "feature_sample_ids_not_in_metadata": [
+    "D2_M12_B1_EA",
+    "D2_M12_B1_EB",
+    "D2_M12_B2_EA",
+    "D2_M12_B2_EB"
+  ],
+  "metadata_sample_ids_not_in_feature": [],
+  "sequence_rows": 52,
+  "sequence_sample_type_counts": {
+    "Sample": 40,
+    "QC": 11,
+    "Blank": 1
+  }
+}
